@@ -26,6 +26,16 @@ struct ContentView: View {
             .padding(.horizontal)
             .background(.blue)
             .foregroundStyle(.white)
+            
+            .padding()
+            
+            Button("Clear") {
+                
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal)
+            .background(.blue)
+            .foregroundStyle(.white)
                 
         }
         .padding()
