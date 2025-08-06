@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var userName: String = ""
+    @State private var password: String = ""
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -18,6 +20,13 @@ struct ContentView: View {
                 .fontWeight(.black)
             
                 Spacer()
+            
+            VStack(spacing: 20) {
+                TextField("Enter userName", text: $userName)
+                SecureField("enter password", text: $password)
+            }
+            .padding(.horizontal)
+            Spacer()
             
             Button("Login via Microsoft") {
                 
