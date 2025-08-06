@@ -18,6 +18,14 @@ struct ContentView: View {
                 .fontWeight(.black)
             
                 Spacer()
+            
+            Button("Login via Microsoft") {
+                
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal)
+            .background(.blue)
+            .foregroundStyle(.white)
                 
         }
         .padding()
