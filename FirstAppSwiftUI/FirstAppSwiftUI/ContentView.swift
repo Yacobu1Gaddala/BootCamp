@@ -16,6 +16,9 @@ struct ContentView: View {
             Text("Hello, world!")
                 .font(.title)
                 .fontWeight(.black)
+            
+                Spacer()
+                
         }
         .padding()
     }
